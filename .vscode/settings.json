@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "[\"./C:Users/ASTR 52/Desktop/Python\"]"
+    ]
+}
