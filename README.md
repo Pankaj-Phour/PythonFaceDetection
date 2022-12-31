@@ -5,3 +5,6 @@ This project uses opencv with Python to detect faces in a given video feed. You 
 # Visit Profile 
 
 [https://pankajphour.netlify.app](https://pankajphour.netlify.app)
+
+# Join on github
+[https://github.com/Pankaj-Phour/](https://github.com/Pankaj-Phour/)
