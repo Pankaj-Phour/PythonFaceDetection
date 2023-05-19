@@ -14,6 +14,8 @@ cap = cv2.VideoCapture(0)
 # By this method we can set desired size of python window of face detection
 # cv2.namedWindow("image", cv2.WINDOW_NORMAL)
 # cv2.resizeWindow('image', 1920, 1080)
+
+# Setting the cariable pTime to 0
 pTime = 0
 
 
@@ -21,11 +23,14 @@ mpFaceDetection = mp.solutions.face_detection
 mpDraw = mp.solutions.drawing_utils
 faceDetection = mpFaceDetection.FaceDetection(0.75)
 
-
+# This will make our project to run for forever until we close it 
 while True:
     success, img = cap.read()
     
+    # Converting the image colors from BGR to RGB 
     imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+    # Processing the image to detect faces in the particular frame 
     results = faceDetection.process(imgRGB)
     # print(results)
     if results.detections:
