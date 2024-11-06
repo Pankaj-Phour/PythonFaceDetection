@@ -12,4 +12,4 @@ def counter(vehicles, wheels):
         print(f"Total number of two Wheelers is", twowheelers)
 
 
-counter(0,560)
+counter(30,76)

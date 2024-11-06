@@ -18,7 +18,9 @@ radius = 0
 # circle.width(3)
 circle.hideturtle()
 circle.speed(10)
-
+# circle.width(3)
+rectangle.width(2)
+rectangle.setpos(-120,0)
 # clear = turtle.Turtle()
 # clear.speed(10)
 # clear.width(3)
@@ -53,8 +55,11 @@ for i in range(300):
     # square.color(color)
     rectangle.color(color)
     # square.forward(i)
-    rectangle.forward(i)
-    rectangle.right(90)
+    rectangle.forward(120)
+    if( i>0 and i%4==0):
+        rectangle.right(i)
+    else:
+        rectangle.right(90)
     # square.left(360)
     circle.color(color3)
     circle.circle((radius + i)/2,45)
