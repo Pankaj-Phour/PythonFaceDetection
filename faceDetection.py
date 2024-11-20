@@ -15,7 +15,7 @@ cap = cv2.VideoCapture(0)
 # cv2.namedWindow("image", cv2.WINDOW_NORMAL)
 # cv2.resizeWindow('image', 1920, 1080)
 
-# Setting the cariable pTime to 0
+# Setting the variable pTime to 0
 pTime = 0
 
 

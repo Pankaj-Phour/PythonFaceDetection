@@ -1,5 +1,5 @@
 a = 'Hello World'
-print(a)
+print(a);
 
 x = 10
 y = 15.5
@@ -21,7 +21,7 @@ for i in range(x):
 fruits =  ["Apple", "Banana", "Mango","Grapes", "Guava"]
 print(len(fruits))
 for i in range(len(fruits)):
-    print(fruits[i])
+    print(fruits[i]);
 
 for fruit in fruits:
-    print(fruit)
+    print(fruit);

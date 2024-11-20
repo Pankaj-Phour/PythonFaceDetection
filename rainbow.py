@@ -13,6 +13,7 @@ pen = turtle.Turtle()
 def rainbow(color,circle,value):
     pen.color(color)
     pen.circle(circle,-180)
+    pen.circle(circle,-180)
     pen.up()
     pen.setpos(value,0)
     pen.down()
